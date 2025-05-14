@@ -8,7 +8,7 @@ import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 
 function PakistanModel() {
-  const gltf = useLoader(GLTFLoader, '/pak.glb'); // Your Pakistan model
+  const gltf = useLoader(GLTFLoader, '/kara.glb'); 
   const ref = useRef();
 
   useFrame(() => {
