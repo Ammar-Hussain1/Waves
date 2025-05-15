@@ -37,7 +37,7 @@ function FlightPicker() {
 
   return (
     <div className="relative">
-      <div className="md:absolute md:top-[-700px] md:left-1/2 md:transform md:-translate-x-1/2 w-full px-4 sm:px-6 lg:px-0 max-w-4xl mt-2">
+      <div className="md:absolute md:top-[-600px] md:left-1/2 md:transform md:-translate-x-1/2 w-full px-4 sm:px-6 lg:px-0 max-w-4xl mt-2">
         <div className="bg-transparent p-6 sm:p-10 shadow-lg w-full">
           <div className="flex flex-col sm:flex-row sm:items-center gap-4 mb-6">
             <RadioGroup value={flightType} onValueChange={handleFlightTypeChange} className="flex gap-6">
